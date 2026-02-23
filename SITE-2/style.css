@@ -1,0 +1,34 @@
+#robo{
+    width: 240px;
+    height: auto;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1C3C7C}
+.conteudo-large{
+
+    width: 1366px;
+    height: 270px;
+    background-color: #CFE0F5;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+.conteudo-small{
+    width: 554px;
+    height: 270px;
+    background-color: #CFE0F5;
+    margin: 10px;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    padding: 10px;
+}
+body{
+    background-color: rgb(231, 238, 246);
+}
