@@ -9,6 +9,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1C3C7C;
 }
+.texto-segundobloco{    
+    display: flex;
+    align-items: flex-start;
+}
 #button{
     background-color: #1E3F8A;
     color: white;
@@ -32,6 +36,26 @@
     gap: 30px;
     margin-left: 60px;
 }
+.caixa-secao2{
+    background-color: #CFE0F5;
+    width: 1300px;
+    height: 240px;
+    border-radius: 10px;
+    display: flex;
+
+}
+.blocos-secao2{
+    width: 200px;
+    height: 200px;
+    background-color: #e7eef6;
+}
+
+.texto-secao2{  
+    background-color: #CFE0F5;
+    width: 1300px;
+    height: 30px;
+    border-radius: 10px;
+}
 .conteudo-large{
 
     width: 1366px;
@@ -40,8 +64,14 @@
     margin: 10px;
     border-radius: 10px;
     display: flex;
-    text-align: center;
     justify-content: space-between
+}
+.conteudo-large1{
+    width: 1366px;
+    height: 270px;
+    background-color: #CFE0F5;
+    margin: 10px;
+    border-radius: 10px;
 }
 .conteudo-small{
     width: 554px;
@@ -55,5 +85,5 @@ section{
     padding: 10px;
 }
 body{
-    background-color: rgb(231, 238, 246);
+    background-color: #e7eef6;
 }
