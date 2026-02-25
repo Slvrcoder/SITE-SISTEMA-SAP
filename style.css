@@ -7,7 +7,31 @@
     flex-direction: column;
     align-items: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1C3C7C}
+    color: #1C3C7C;
+}
+#button{
+    background-color: #1E3F8A;
+    color: white;
+    border: none;
+    padding: 7px 45px;
+    border-radius: 20px;
+    cursor: pointer;
+}    
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 100px;
+    margin-top: 30px;
+    
+}
+
+.lado-esquerdo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 60px;
+}
 .conteudo-large{
 
     width: 1366px;
@@ -17,6 +41,7 @@
     border-radius: 10px;
     display: flex;
     text-align: center;
+    justify-content: space-between
 }
 .conteudo-small{
     width: 554px;
